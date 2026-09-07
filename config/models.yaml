@@ -1,0 +1,47 @@
+# models.yaml - Configuración de los modelos generativos
+
+models:
+  - name: "GPT-4o"
+    provider: "OpenAI"
+    version: "gpt-4o-2024-11-20"
+    api_key_env: "OPENAI_API_KEY"
+    max_tokens: 512
+    temperature: 0.9
+    context_window: 128000
+    supports_languages: ["Python", "Java", "C++", "C"]
+    
+  - name: "Claude 3.5"
+    provider: "Anthropic"
+    version: "claude-3-5-sonnet-20241022"
+    api_key_env: "ANTHROPIC_API_KEY"
+    max_tokens: 512
+    temperature: 0.9
+    context_window: 200000
+    supports_languages: ["Python", "Java", "C++", "C"]
+    
+  - name: "Gemini 1.5"
+    provider: "Google"
+    version: "gemini-1.5-pro-001"
+    api_key_env: "GOOGLE_API_KEY"
+    max_tokens: 512
+    temperature: 0.9
+    context_window: 128000
+    supports_languages: ["Python", "Java", "C++", "C"]
+    
+  - name: "Codestral"
+    provider: "Mistral AI"
+    version: "codestral-2405"
+    api_key_env: "MISTRAL_API_KEY"
+    max_tokens: 512
+    temperature: 0.9
+    context_window: 32000
+    supports_languages: ["Python", "Java", "C++", "C"]
+    
+  - name: "Llama-3"
+    provider: "Meta (Perplexity)"
+    version: "llama-3-sonar-large-32k-chat"
+    api_key_env: "PERPLEXITY_API_KEY"
+    max_tokens: 512
+    temperature: 0.9
+    context_window: 32000
+    supports_languages: ["Python", "Java", "C++", "C"]

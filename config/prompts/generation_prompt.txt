@@ -1,0 +1,4 @@
+Write a complete {language} program to solve the following problem:
+{task_description}
+
+The program must be compilable/executable and functionally correct.

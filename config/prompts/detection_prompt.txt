@@ -1,0 +1,18 @@
+Eres un experto en seguridad de software. Analiza el siguiente código {language} y 
+devuelve un JSON con las vulnerabilidades encontradas.
+
+{CWE_SPECIFIC}
+
+Formato JSON esperado:
+{
+  "vulnerabilities": [
+    {
+      "cwe": "CWE-XXX",
+      "line": N,
+      "description": "Breve descripción de la vulnerabilidad"
+    }
+  ]
+}
+
+Código:
+{code}

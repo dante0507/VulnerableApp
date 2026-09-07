@@ -1,0 +1,30 @@
+# languages.yaml - Configuración de los lenguajes de programación
+
+languages:
+  - name: "Python"
+    extension: ".py"
+    compiler: "python3"
+    memory_management: "Automática"
+    paradigm: "Dinámico"
+    sast_supported: true
+    
+  - name: "Java"
+    extension: ".java"
+    compiler: "javac"
+    memory_management: "Automática"
+    paradigm: "Estático"
+    sast_supported: true
+    
+  - name: "C++"
+    extension: ".cpp"
+    compiler: "g++"
+    memory_management: "Manual"
+    paradigm: "Estático"
+    sast_supported: true
+    
+  - name: "C"
+    extension: ".c"
+    compiler: "gcc"
+    memory_management: "Manual"
+    paradigm: "Estático"
+    sast_supported: true
