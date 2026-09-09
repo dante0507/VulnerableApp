@@ -1,0 +1,13 @@
+---
+sourceLocationPrefix: D:\Repositorios\VulnerableApp
+baselineLinesOfCode: 322
+unicodeNewlines: false
+columnKind: utf32
+primaryLanguage: python
+creationMetadata:
+  sha: 482b3884cdb68478839052b2a4c85f7e6c35c6c5
+  cliVersion: 2.26.4
+  creationTime: 2026-09-08T16:52:59.489433400Z
+overlayDatabase: false
+overlayBaseDatabase: false
+finalised: true

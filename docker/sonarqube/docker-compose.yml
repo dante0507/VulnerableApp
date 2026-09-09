@@ -1,15 +1,26 @@
-version: "3"
+
 services:
   sonarqube:
     image: sonarqube:25.3-community
+    container_name: sonarqube
     ports:
       - "9000:9000"
     environment:
       - SONAR_ES_BOOTSTRAP_CHECKS_DISABLE=true
+      - SONAR_AUTHENTICATOR_IGNORE_STARTUP_FAILURE=true
     volumes:
       - sonarqube_data:/opt/sonarqube/data
       - sonarqube_extensions:/opt/sonarqube/extensions
+      - sonarqube_logs:/opt/sonarqube/logs
+    networks:
+      - sonarnet
+    restart: unless-stopped
 
 volumes:
   sonarqube_data:
   sonarqube_extensions:
+  sonarqube_logs:
+
+networks:
+  sonarnet:
+    driver: bridge

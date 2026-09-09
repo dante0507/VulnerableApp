@@ -1,0 +1,1 @@
+{"timestamp":"2026-09-08T18:53:53.2542738+02:00","source":{"id":"cli/database/finalize","name":"CodeQL CLI: database finalize"},"plaintextMessage":"A fatal error occurred: Database D:\\Repositorios\\VulnerableApp\\codeSql is already finalized.","severity":"error","visibility":{"telemetry":false},"attributes":{"exitCode":2}}
